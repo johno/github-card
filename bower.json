@@ -1,0 +1,21 @@
+{
+  "name": "github-card",
+  "version": "0.0.0",
+  "authors": [
+    "John Otander <johnotander@gmail.com>"
+  ],
+  "keywords": [
+    "seed",
+    "polymer",
+    "web-components",
+    "github",
+    "github-card"
+  ],
+  "main": "github-card.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.4.0"
+  },
+  "devDependencies": {
+    "polymer-test-tools": "Polymer/polymer-test-tools#^0.4.0"
+  }
+}

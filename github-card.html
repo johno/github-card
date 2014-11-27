@@ -1,0 +1,27 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="github-card" attributes="username name avatarUrl">
+
+  <template>
+
+    <link rel="stylesheet" href="github-card.css" />
+
+    <content>
+      <img src="{{avatarUrl}}" alt="{{name}} avatar">
+      <h1>{{name}}</h1>
+      <h3>{{username}}</h3>
+    </content>
+
+  </template>
+
+  <script>
+
+    Polymer({
+      ready: function() {
+
+      }
+    });
+
+  </script>
+
+</polymer-element>
